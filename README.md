@@ -4,8 +4,9 @@ This project is a real-time webcam visualizer that draws glowing neon lines and 
 
 
 
+
 ## Features
-- Real-time webcam hand and finger tracking
+- Real-time webcam hand and finger tracking 
 - Smooth, accurate overlays that do not lose track of fingers
 - Custom overlay graphics inspired by the reference image
 - Robust and impressive performance
