@@ -13,6 +13,7 @@ MODEL_URL = "https://storage.googleapis.com/mediapipe-models/hand_landmarker/han
 if not os.path.exists(MODEL_PATH):
     import urllib.request
     print("Downloading hand_landmarker model...")
+    
     urllib.request.urlretrieve(MODEL_URL, MODEL_PATH)
 
 # Helper to draw overlay
