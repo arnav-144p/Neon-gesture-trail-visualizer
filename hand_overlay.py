@@ -45,6 +45,7 @@ def draw_finger_strings_between_hands(image, hand1, hand2):
         cv2.addWeighted(overlay, 0.25, image, 0.75, 0, image)
         overlay2 = image.copy()
         cv2.line(overlay2, p1, p2, neon_mid, 6, lineType=cv2.LINE_AA)
+        
         cv2.addWeighted(overlay2, 0.35, image, 0.65, 0, image)
         cv2.line(image, p1, p2, neon_core, 2, lineType=cv2.LINE_AA)
         # Draw glowing circle at the midpoint, radius proportional to string length
