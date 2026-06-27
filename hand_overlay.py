@@ -18,6 +18,7 @@ if not os.path.exists(MODEL_PATH):
 
 # Helper to draw overlay
 def draw_custom_overlay(image, landmarks):
+    
     h, w, _ = image.shape
     points = []
     for lm in landmarks:
